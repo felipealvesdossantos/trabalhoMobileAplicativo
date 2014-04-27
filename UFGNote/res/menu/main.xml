@@ -14,4 +14,10 @@
 
     <item android:id="@+id/menu_sair"
           android:title="@string/menu_sair" />
+    
+    <item android:id="@+id/menu_opt"
+          android:title="@string/menu_opt" />
+
+    <item android:id="@+id/menu_fotos"
+          android:title="@string/menu_fotos" />
 </menu>

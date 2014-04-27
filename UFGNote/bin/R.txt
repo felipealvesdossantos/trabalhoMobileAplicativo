@@ -261,6 +261,8 @@ int id image 0x7f050027
 int id listMode 0x7f050001
 int id list_item 0x7f050029
 int id menu_configurar 0x7f05003e
+int id menu_fotos 0x7f050041
+int id menu_opt 0x7f050040
 int id menu_sair 0x7f05003f
 int id middle 0x7f050012
 int id never 0x7f050009

@@ -61,6 +61,14 @@ public class Main extends ActionBarActivity {
          case R.id.menu_sair:
              onClickMenuSair(item);
              return true;
+             
+         case R.id.menu_opt:
+             onClickMenuConfigurar(item);
+             return true;
+
+         case R.id.menu_fotos:
+             onClickMenuSair(item);
+             return true;
 
          default:
              return super.onOptionsItemSelected(item);

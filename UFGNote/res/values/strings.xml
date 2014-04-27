@@ -6,5 +6,7 @@
     <string name="action_settings">Settings</string>
 	<string name="menu_configurar">Configurar</string>
     <string name="menu_sair">Sair</string>
+    <string name="menu_opt">Opcoes</string>
+    <string name="menu_sair">Fotos</string>
     
 </resources>

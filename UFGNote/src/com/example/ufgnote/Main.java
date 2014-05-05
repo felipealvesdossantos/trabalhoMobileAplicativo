@@ -62,7 +62,7 @@ public class Main extends ActionBarActivity {
              onClickMenuSair(item);
              return true;
              
-         case R.id.menu_opt:
+         case R.id.menu_cadastro:
              onClickMenuConfigurar(item);
              return true;
 

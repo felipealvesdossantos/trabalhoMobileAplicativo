@@ -260,9 +260,9 @@ int id ifRoom 0x7f05000a
 int id image 0x7f050027
 int id listMode 0x7f050001
 int id list_item 0x7f050029
+int id menu_cadastro 0x7f050040
 int id menu_configurar 0x7f05003e
 int id menu_fotos 0x7f050041
-int id menu_opt 0x7f050040
 int id menu_sair 0x7f05003f
 int id middle 0x7f050012
 int id never 0x7f050009
@@ -337,7 +337,9 @@ int string abc_shareactionprovider_share_with_application 0x7f0a000b
 int string action_settings 0x7f0a000f
 int string app_name 0x7f0a000d
 int string hello_world 0x7f0a000e
+int string menu_cadastro 0x7f0a0012
 int string menu_configurar 0x7f0a0010
+int string menu_fotos 0x7f0a0013
 int string menu_sair 0x7f0a0011
 int style AppBaseTheme 0x7f0b0083
 int style AppTheme 0x7f0b0084

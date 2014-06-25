@@ -1,3 +1,7 @@
 Instruções:
 
 Pacote "notificação" possui o codigo relatorio as notificaçoes e ao procedimentos relativos aos filtros das mesmas, estas nao consegui completa-las mas enviei o que consegui fazer
+
+
+Deviso ao tamnho do projeto estou enviando somente os pacotes que criei para organizar o codigo e os layouts
+

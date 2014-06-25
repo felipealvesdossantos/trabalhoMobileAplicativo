@@ -1,0 +1,3 @@
+Instruções:
+
+Pacote "notificação" possui o codigo relatorio as notificaçoes e ao procedimentos relativos aos filtros das mesmas, estas nao consegui completa-las mas enviei o que consegui fazer

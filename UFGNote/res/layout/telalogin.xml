@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/telalogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3"
+    tools:ignore="MergeRootFrame" >
+
+    <EditText
+        android:id="@+id/txtMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNome"
+        android:layout_below="@+id/labelMatricula"
+        android:ems="10"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelNome"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:textSize="22sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelUFG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="@string/ufg"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/labelNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNome"
+        android:layout_below="@+id/labelUFG"
+        android:layout_marginTop="20dp"
+        android:text="@string/login"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/labelMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNome"
+        android:layout_below="@+id/txtNome"
+        android:layout_marginTop="14dp"
+        android:text="@string/senha"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMatricula"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/entrarLogin" />
+
+</RelativeLayout>

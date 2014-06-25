@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main1" >
+
+    <Button
+        android:id="@+id/btAluno"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/labelEntrarComo"
+        android:layout_below="@+id/labelEntrarComo"
+        android:layout_marginTop="15dp"
+        android:gravity="left|fill_vertical"
+        android:text="@string/aluno"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btVisitante"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btAluno"
+        android:layout_below="@+id/btAluno"
+        android:gravity="fill_vertical"
+        android:text="@string/visitante"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/labelCad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btCadastrar"
+        android:layout_marginTop="17dp"
+        android:text="@string/inicio"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelCad"
+        android:layout_centerHorizontal="true"
+        android:gravity="fill_vertical"
+        android:text="@string/cadastrar"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/labelEntrarComo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btCadastrar"
+        android:layout_below="@+id/btCadastrar"
+        android:layout_marginTop="20dp"
+        android:text="@string/entrar"
+        android:textSize="16sp" />
+
+</RelativeLayout>

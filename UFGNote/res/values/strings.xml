@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lista">
+        <item>Professor</item>
+        <item>Aluno</item>
+    </string-array>
+    
+    <string name="app_name">UFGNote</string>
+    <string name="inicio">Inicio</string>
+    <string name="entrar">Entrar como?</string>
+    <string name="action_settings">Settings</string>
+	<string name="cadastrar">Cadastrar</string>
+	<string name="professor">Professor</string>
+	<string name="aluno">Aluno</string>
+	<string name="visitante">Visitante</string>
+	
+	<string name="ufg">UFG</string>
+	<string name="login">Login</string>
+	<string name="senha">Senha</string>
+	<string name="entrarLogin">Entrar</string>
+	
+	<string name="TCadastro">Cadastro</string>
+	<string name="labelNome">Nome</string>
+	<string name="labelMatricula">Matricula</string>
+	<string name="labelUser">Usuario</string>
+	<string name="labelSenha">Senha</string>
+	<string name="labelTipo">Tipo</string>
+	<string name="btOk">Ok</string>
+	
+</resources>
+
